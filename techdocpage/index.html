@@ -11,43 +11,33 @@
       <header>MC server Documentation</header>
       <ul>
         <li>
-          <a class="nav-link" href="#introduction"
-            >What is a Minecraft Server?</a
-          >
+          <a class="nav-link" href="#Introduction">Introduction</a>
         </li>
         <li>
-          <a class="nav-link" href="#needtoknow"
-            >What do you/Should you know?</a
-          >
+          <a class="nav-link" href="#Need_to_know">Need to know</a>
         </li>
         <li>
-          <a class="nav-link" href="#hardware">My Current Hardware Setup</a>
+          <a class="nav-link" href="#Hardware">Hardware</a>
         </li>
-        <li><a class="nav-link" href="#os">What OS am I running?</a></li>
+        <li><a class="nav-link" href="#OS">OS</a></li>
         <li>
-          <a class="nav-link" href="#minecraft-versions"
-            >Versions of Minecraft to host</a
-          >
+          <a class="nav-link" href="#Minecraft_Versions">Minecraft Versions</a>
         </li>
         <li>
-          <a class="nav-link" href="#modding"
-            >What mods am I running and how to install?</a
-          >
+          <a class="nav-link" href="#Modding">Modding</a>
         </li>
-        <li><a class="nav-link" href="#modloaders">What loader do I use</a></li>
+        <li><a class="nav-link" href="#Modloaders">Modloaders</a></li>
         <li>
-          <a class="nav-link" href="#deploying">Deploying my live server</a>
+          <a class="nav-link" href="#Deploying">Deploying</a>
         </li>
         <li>
-          <a class="nav-link" href="#administration"
-            >What andministration and maintainence I do</a
-          >
+          <a class="nav-link" href="#Administration">Administration</a>
         </li>
-        <li><a class="nav-link" href="#links">Relevant links</a></li>
+        <li><a class="nav-link" href="#Links">Links</a></li>
       </ul>
     </nav>
     <main id="main-doc">
-      <section class="main-section" id="introduction">
+      <section class="main-section" id="Introduction">
         <header>Introduction</header>
         <article>
           <p>
@@ -65,43 +55,146 @@
             Minecraft server is a player-owned or business-owned multiplayer
             game server for the 2011 Mojang Studios video game Minecraft. In
             this context, the term "server" often colloquially refers to a
-            network of connected servers, rather than a single machine.
-            Players can start their own server either by setting one up on a
-            computer using software provided by Mojang, or by using a hosting
-            provider so they can have their server run on dedicated machines
-            with guaranteed uptime. The largest server is widely accepted to
-            be the minigame server Hypixel. Minecraft multiplayer servers
-            are controlled by server operators, who have access to server
-            commands such as setting the time of day, teleporting players and
-            setting the world spawn. The server owner (or users that have access
-            to the live server files) can also set up and install plugins to
-            change the mechanics of the server, add commands among other
-            features, and can also set up restrictions concerning which
-            usernames or IP addresses are allowed or disallowed to enter the
-            game server. Multiplayer servers have a wide range of activities,
-            with some servers having unique premises, rules, and customs. Player
-            versus player (PvP) combat can be enabled to allow fighting between
-            players. Custom plugins and mods can be used in servers to allow
-            actions that are not normally possible in the vanilla form of the
-            game. There are also several modifications of the
-            server software that can allow crossplay between the Java and
-            Bedrock editions of the game.
+            network of connected servers, rather than a single machine. Players
+            can start their own server either by setting one up on a computer
+            using software provided by Mojang, or by using a hosting provider so
+            they can have their server run on dedicated machines with guaranteed
+            uptime. The largest server is widely accepted to be the minigame
+            server Hypixel. Minecraft multiplayer servers are controlled by
+            server operators, who have access to server commands such as setting
+            the time of day, teleporting players and setting the world spawn.
+            The server owner (or users that have access to the live server
+            files) can also set up and install plugins to change the mechanics
+            of the server, add commands among other features, and can also set
+            up restrictions concerning which usernames or IP addresses are
+            allowed or disallowed to enter the game server. Multiplayer servers
+            have a wide range of activities, with some servers having unique
+            premises, rules, and customs. Player versus player (PvP) combat can
+            be enabled to allow fighting between players. Custom plugins and
+            mods can be used in servers to allow actions that are not normally
+            possible in the vanilla form of the game. There are also several
+            modifications of the server software that can allow crossplay
+            between the Java and Bedrock editions of the game.
           </p>
         </article>
       </section>
-      <section>
-        <header>What do you/should you know?</header>
+      <section class="main-section" id="Need_to_know">
+        <header>Need to know</header>
         <article>
-            
-            <p>A list of questions you should ask yourself</p>
-            <ol>
-                <li>Do you want to host it yourself?</li>
-                <li>Should you host it yourself?</li>
-                <li>Do you have the hardware to host a server?</li>
-                <li>If you have the hardware, should you use it to host?</li>
-                <li>Do you have knowledge of operating systems other than windows (re: linux)?</li>
-                <li>Do you know enough about the game to understand hosting it?</li>
+          <p>A list of questions you should ask yourself</p>
+          <ol>
+            <li>Do you want to host it yourself?</li>
+            <li>Should you host it yourself?</li>
+            <li>Do you have the hardware to host a server?</li>
+            <li>If you have the hardware, should you use it to host?</li>
+            <li>
+              Do you have knowledge of operating systems other than windows i.e.
+              Linux?
+            </li>
+            <li>Do you know enough about the game to understand hosting it?</li>
+          </ol>
         </article>
+      </section>
+      <section class="main-section" id="Hardware">
+        <header>Hardware</header>
+        <article>
+          <p>
+            The good news about hosting a Minecraft server is that it's been out
+            for <em>so long</em> that is will run on a toaster. The bad news is
+            that it's <em>so old</em> that if you don't give it enough oomf,
+            your toaster won't even be able to singe that Minecraft bread. You
+            can easily host it on the very PC you are playing on, and it will
+            probably be fine for you and one friend. Anything more than that
+            though, and your computer will struggle to do the most basic tasks.
+            So what to do?
+          </p>
+          <p>
+            So, the good news. If you have a spare computer that is
+            <em>somewhat</em> relevant in terms of specs, you are more than
+            fine. I run mine on a 6th gen Intel, with 32GB of RAM and a 500GB
+            NvME drive. Not old, but not new by any means whatsoever. You can
+            even go super low spec, some people run their servers on Single
+            Board PCs, such as a Raspberry Pi! I recommend at least a 4th Gen
+            CPU (Intel or AMD, whatever your flavour), and as much RAM as you
+            can find/buy. You will not regret jamming as much RAM as you can for
+            the server. This becomes <em>very important</em> as you start to add
+            players, mods, variables and untangibles.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="OS">
+        <header>OS</header>
+        <article>
+          <p>
+            There are many different flavours of OS available, and I will link
+            them all at the bottom of the page. You can use <code>Windows</code>, <code>Linux </code>, <code>Mac</code>,
+            <code>Raspian</code>, and many other variables within that. That being said, the
+            overall best choice is Linux. But that in and of itself opens up a
+            myriad options, so I will keep it as simple as possible. It breaks
+            down like this:
+          </p>
+          <ol>
+            <li>Linux-based OS (Ubuntu, Debian, Fedora etc)</li>
+            <li>
+              OR! You can even use an OS built entirely for Minecraft Server
+              Hosting
+            </li>
+            <li>Management Console (pufferpanel, Crafty, All the mods etc)</li>
+            <li>Profit!</li>
+          </ol>
+        </article>
+      </section>
+      <section class="main-section" id="Minecraft_Versions">
+        <header>Minecraft Versions</header>
+        <article>
+          <p>
+            have two options when it comes to versions of Minecraft to host.
+            Minecraft <code>Java edition</code>, or <code>Bedrock edition</code>. I personally don't have
+            experience hosting Bedrock, so I will stick with talking about Java.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Modding">
+        <header>Modding</header>
+        <article>
+          <p>
+            There are already nearly unlimited possibilities within the magical
+            world of Minecraft, but you can make it even grander with mods. Mods
+            are additions and expansions (usually built by third parties) that
+            can do practically anything you can imagine, from completely
+            altering a game's core mechanics to simple things like tweaking
+            textures and models.
+          </p>
+          <p>
+            Mods in Minecraft: Java Edition can massively expand the
+            possibilities of play. You can even create your own mods for
+            Minecraft: Java Edition if you're so inclined. Before you can begin
+            installing and playing with mods, though, there are a few things for
+            which you'll need to prepare.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Modloaders">
+        <header>ModLoaders</header>
+        <article>
+          <p>Put mod loader info here, a lot to actually type out for a small project</p>
+        </article>
+      </section>
+      <section class="main-section" id="Deploying">
+        <header>Deploying</header>
+        <article>
+          <p>Once you have picked your MC version, picked your mods, it's time to actually DEPLOY the server</p>
+          <p>This is where the magic happens...just press the PLAY button and then Server goes <code>BRRRRRR</code></p>
+        </article>
+      </section>
+      <section class="main-section" id="Administration">
+        <header>Administration</header>
+        <article>
+          <p>More info here for regular administrative tasks for upkeep on server</p>
+        </article>
+      </section>
+      <section class="main-section" id="Links">
+        <header>Links</header>
       </section>
     </main>
   </body>
